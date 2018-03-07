@@ -5,17 +5,16 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 /**
- * Created by Msater Zg on 2017/7/13.
+ * 描述:
+ * 地区管理接口实现
+ *
+ * @author Msater Zg
+ * @create 2017-11-07 19:19
  */
 @Configuration
 @ConditionalOnClass(JwtService.class)
 @EnableConfigurationProperties(JwtServiceProperties.class)
-/**
- *
- *
- */
 public class JwtAutoConfiguration {
     @Autowired
     private JwtServiceProperties jwtServiceProperties;

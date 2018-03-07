@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * 描述:
- * JWT配置类，读取配置文件
+ * JWT配置类，读取配置文件,组装成jwt的形式
  *
  * @author Msater Zg
  * @create 2017-11-13 19:30
